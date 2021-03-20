@@ -51,13 +51,13 @@ public class Level3PracticeA {
 		assertEquals("john", contest.findWinner());
 	}
 
-//	@Test
-//	public void test_findWinner_whenThrownBackFishMakeADifference() {
-//		HashMap<String, double[]> allCatches = new HashMap<>();
-//		allCatches.put("isis", isisCatches);
-//		allCatches.put("esme", esmesCatches);
-//
-//		FishingContest contest = new FishingContest(allCatches);
-//		assertEquals("esme", contest.findWinner());
-//	}
+	@Test
+	public void test_findWinnerr() {
+		HashMap<String, double[]> allCatches = new HashMap<>();
+		allCatches.put("isis", isisCatches);
+		allCatches.put("esme", esmesCatches);
+
+		FishingContest contest = new FishingContest(allCatches);
+		assertEquals("esme", contest.findWinner());
+	}
 }

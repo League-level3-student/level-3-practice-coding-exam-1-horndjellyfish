@@ -14,7 +14,7 @@ public class Level3PracticeB {
 	/*
 	 * TODO: implement the Finder class, including the method lastIndexOf 
 	 * 
-	 * lastIndexOf takes two paramenters
+	 * lastIndexOf takes two parameters
 	 *    An arraylist of Strings to search through
 	 *    A String that you're searching for
 	 *    

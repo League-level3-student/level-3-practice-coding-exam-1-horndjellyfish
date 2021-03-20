@@ -1,12 +1,16 @@
 package practice;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Finder {
 
-    public int lastIndexOf(ArrayList<String> s, String b) {
+    public int lastIndexOf(ArrayList<String> s, String a) {
 
-        return 0;
+        for (int i = 0; i < s.size(); i++) {
+            
+        }
+        return -1;
     }
 
 
